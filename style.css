@@ -299,6 +299,7 @@ body{
 }
 .border {
     text-align: center;
+    cursor: pointer;
 }
 .icon-circle {
     width: 90px;
@@ -325,3 +326,29 @@ body{
 }
 
 /* end home page-3 */
+
+/* start home page-4 */
+.page-4{
+    height: 100vh;
+}
+.p-4{
+    text-align: center;
+    padding-top: 70px;
+}
+.p-4 h3{
+    font-weight: bold;
+    font-size: 43px;
+}
+.p-4 p{
+    color: #7d7c7c;
+    padding-top: 35px;
+    padding-right: 365px;
+    padding-left: 365px;
+    line-height: 28px;
+}
+.p-4 h3 span{
+    color: #0088ff;
+}
+
+
+/* end home page-4 */
