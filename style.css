@@ -2,11 +2,34 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
+}
+/* دکمه اسکرول */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #0088ff;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+    .scroll-to-top:hover {
+    background-color: black;
 }
 
 /* start header  */
@@ -612,3 +635,10 @@ body{
     color: black;
 }
 /* end home page-6 */
+
+/* start home footer */
+
+
+
+
+/* end home footer */
