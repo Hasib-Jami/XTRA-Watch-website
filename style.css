@@ -518,3 +518,97 @@ body{
     height: 300px;
 }
 /* end home page-5 */
+
+/* start home page-6 */
+.page-6{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-p6{
+    background-color: #F2F2F2;
+    height: 500px;
+    width: 900px;
+    border-radius: 45px;
+    position: relative;
+    overflow: visible;
+    margin-top: 110px;
+}
+.photo-p6 {
+    background-image: url(look\ watch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 1170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 75px;
+    overflow: hidden;    
+}
+.photo-p6::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(look\ watch.jpg) no-repeat center/cover;
+    filter: brightness(35%);
+    z-index: 0;
+    border-radius: 20px;
+}
+.photo-p6 > * {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.text-p6{
+    text-align: center;
+    padding-top: 90px;
+}
+.text-p6 h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text-p-p6{
+    color:#989797;
+    padding-top: 50px;
+    padding-left: 270px;
+    padding-right: 270px;
+    line-height: 30px;
+}
+.button-p6{
+    text-align: center;
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button1-p6{
+    padding: 16px 33px 16px 33px;
+    border: none;
+    border-radius: 35px;
+    background-color: white;
+    font-size: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button1-p6:hover{
+    background-color: #0088ff;
+    color: white;
+}
+.button2-p6{
+    padding: 15px 42px 15px 42px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    border-radius: 35px;
+    transition: 0.3s;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button2-p6:hover{
+    background-color: white;
+    color: black;
+}
+/* end home page-6 */
