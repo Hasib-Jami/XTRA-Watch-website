@@ -32,6 +32,15 @@ body{
     background-color: black;
 }
 /* start home header */
+#humber{
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
 .header-main {
     width: 1200px;
     margin: 0 auto;
@@ -761,3 +770,11 @@ footer.footer {
     color: #0088ff;
 }
 /* end home footer */
+
+
+/* Responsive */
+@media (max-width: 576px){
+    #humber{
+        display: block;
+    }
+}
