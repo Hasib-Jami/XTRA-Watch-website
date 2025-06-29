@@ -35,10 +35,12 @@ body{
 #humber{
     display: none;
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 100px;
+    right: 60px;
     font-size: 27px;
     cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 .header-main {
@@ -48,6 +50,7 @@ body{
     display: flex;
     align-items: center;
     overflow: hidden;
+    z-index: 10;
 }
 .header-icon img {
     height: 30px;
@@ -773,8 +776,75 @@ footer.footer {
 
 
 /* Responsive */
-@media (max-width: 576px){
-    #humber{
-        display: block;
+
+/*start Header */
+@media (max-width: 768px) {
+#humber {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 27px;
+    z-index: 1001;
+    cursor: pointer;
+    }
+.header-main {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    background: white;
+    padding: 40px 20px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    }
+.header-icon {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    }
+.header-name, .Contact, .shop-icon {
+    display: none;
+}
+#menu-toggle:checked ~ .header-main {
+    right: 0;
+}
+#menu-toggle:checked ~ .header-main .header-name,
+#menu-toggle:checked ~ .header-main .Contact,
+#menu-toggle:checked ~ .header-main .shop-icon {
+    display: block;
+    margin-top: 20px;
+    }
+.header-name ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0;
+    color: black;
+    }
+.Contact {
+    width: 100%;
+    }
+    .shop-icon{
+        margin-left: 48px;
+    }
+.shop-icon i{
+    margin-left: 0;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 10px;
+    }
+    .header-icon {
+    display: block !important;       
+    position: fixed !important;      
+    top: 5px !important;    
+    left: 20px !important;           
+    z-index: 1100 !important;        
+    width: 40px !important;          
+    height: auto !important;
     }
 }
+/* end header */
