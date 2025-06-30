@@ -812,7 +812,15 @@ footer.footer {
     font-size: 27px;
     z-index: 1001;
     cursor: pointer;
-    }
+    direction: ltr;
+}
+#humber i {
+    color: black;
+    transition: color 0.3s ease;
+}
+#menu-toggle:checked + #humber i {
+  color: white;
+}
 .items {
     position: fixed;
     top: 0;
@@ -821,7 +829,7 @@ footer.footer {
     height: 100vh;
     flex-direction: column;
     align-items: flex-start;
-    background: white;
+    background-color: black;
     padding: 40px 20px;
     box-shadow: -2px 0 10px rgba(0,0,0,0.1);
     transition: right 0.3s ease;
@@ -848,19 +856,9 @@ footer.footer {
     flex-direction: column;
     gap: 15px;
     margin-left: 0;
-    background-color: white;
-    color: black;
-    }
-    .header-name-ul li{
-    border: black solid 2px;
-    padding: 6px 50px;
-    border-radius: 35px;
-    transition: 0.3s;
-    }
-    .header-name-ul li:hover{
-        background-color: black;
-        color: white;
-    }
+    background-color: black;
+    color: white;
+}
 }
 /* end header */
 
@@ -942,3 +940,74 @@ footer.footer {
   }
 }
 /* end home page-2 */
+
+/* start home page-3 */
+@media (max-width: 768px) {
+  .bg-1 {
+    width: 82%;
+    height: 580px;        
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: visible;
+    margin: 0 auto;
+  }
+  .photo-3 {
+    width: 100%;
+    height: 580px;        
+    border-radius: 70px;
+    position: relative;
+    top: -50px;          
+    left: 0;
+    transform: none;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .photo-3::before {
+    filter: brightness(35%);
+  }
+  .text-p3 {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-p3-h3 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .text-p3-p {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 21px;
+  }
+  .icon-p3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    gap: 20px 15px;           
+    padding-top: 40px;
+    max-width: 320px;         
+    margin: 0 auto;
+  }
+  .border {
+    flex-basis: 45%;          
+    text-align: center;
+    
+  }
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    
+  }
+  .icon-circle img {
+    width: 40px;
+    height: 40px;
+  }
+  .p-icon {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}
+/* end home page-3 */
