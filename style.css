@@ -1124,3 +1124,30 @@ footer.footer {
   }
 }
 /* end home page-5 */
+
+/* start home page-6 */
+@media (max-width: 768px){
+    .bg-p6{
+        width: 80%;
+        height: 520px;
+        padding: 0 20px
+    }
+    .photo-p6{
+        width: 100%;
+        
+    }
+    .text-p6 h3{
+        font-size: 27px;
+    }
+    .text-p6 p{
+        display: none;
+    }
+    .button-p6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+/* end home page-6 */
