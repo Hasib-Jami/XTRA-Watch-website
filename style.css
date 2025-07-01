@@ -1151,3 +1151,53 @@ footer.footer {
     }
 }
 /* end home page-6 */
+
+/* start home footer */
+@media (max-width: 768px) {
+  footer.footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 100%;
+    margin: 40px auto 0;
+    box-sizing: border-box;
+  }
+  .footer-section {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    flex: 0 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .description {
+    max-width: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 28px;
+  }
+  .socials {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .email-input,
+  .subscribe-button {
+    width: 70%;
+    margin-top: 10px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+}
+/* end home footer */
