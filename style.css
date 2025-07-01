@@ -859,6 +859,13 @@ footer.footer {
     background-color: black;
     color: white;
 }
+.header-name-ul li:hover{
+    border: white 1px solid;
+    padding: 6px 20px;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+}
 }
 /* end header */
 
@@ -927,7 +934,6 @@ footer.footer {
     align-items: center;
     text-align: center;
   }
-
   .watch-image img {
     width: 90%;
     margin: 20px 0;
@@ -1049,7 +1055,6 @@ footer.footer {
 
 /* start home page-5 */
 @media (max-width: 768px) {
-  /* فاصله از کناره‌ها برای کل بخش */
   .page-5{
     margin-top: 320px;
   }
@@ -1104,7 +1109,7 @@ footer.footer {
   .watch-man {
     position: absolute;
     left: 50%;
-    bottom: -20px;                 
+    /* bottom: -10px; */
     transform: translateX(-50%);
     width: 160px;                  
     background: white;
@@ -1115,6 +1120,7 @@ footer.footer {
   .watch-man img {
     width: 100%;
     height: auto;
+    transform: translateX(-150px);
   }
 }
 /* end home page-5 */
