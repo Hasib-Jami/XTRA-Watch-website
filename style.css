@@ -11,7 +11,7 @@ body{
     text-decoration: none;
     list-style: none;
 }
-/* دکمه اسکرول */
+/* Scrool button */
 .scroll-to-top {
     position: fixed;
     bottom: 30px;
@@ -801,6 +801,12 @@ footer.footer {
 
 
 /* Responsive */
+
+@media (max-width: 768px){
+    html, body {
+    overflow-x: hidden;
+   }
+}
 
 /*start Header */
 @media (max-width: 768px) {
