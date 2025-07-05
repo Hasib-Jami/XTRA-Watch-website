@@ -1238,13 +1238,111 @@ footer.footer {
 /* end responsive for size 768px */
 
 
-/* start responsive for size  */
+/* start responsive for size 992px */
+
+/* start header */
+@media (max-width: 992px){
+    #humber {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 27px;
+    z-index: 1001;
+    cursor: pointer;
+    direction: ltr;
+}
+#humber i {
+    color: black;
+    transition: color 0.3s ease;
+}
+#menu-toggle:checked + #humber i {
+  color: white;
+}
+.items {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    padding: 40px 20px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    }
+.header-icon {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    }
+.header-name, .Contact, .shop-icon {
+    display: none;
+}
+#menu-toggle:checked ~ .header-main {
+    right: 0;
+}
+#menu-toggle:checked ~ .header-main .header-name,
+#menu-toggle:checked ~ .header-main ,
+#menu-toggle:checked ~ .header-main {
+    display: block;
+    margin-top: 20px;
+    }
+.header-name ul{
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0;
+    background-color: black;
+    color: white;
+}
+.header-name-ul li {
+  position: relative;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 6px 120px 6px 20px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  transition: color 0.3s ease, border 0.3s ease;
+}
+.header-name-ul li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  z-index: 0;
+  transition: width 0.4s ease;
+  border-radius: 40px;
+}
+.header-name-ul li:hover::before {
+  width: 100%;
+}
+.header-name-ul li:hover {
+  color: black;
+  border-color: white;
+}
+.header-name-ul li span {
+  position: relative;
+  z-index: 1;
+  }
+}
+/* end header */
+
+/* start home page 1 */
 @media (max-width: 992px){
     
 }
 
 
+/* end home page 1 */
 
 
 
-/* end responsive for size  */
+
+/* end responsive for size 992px */
