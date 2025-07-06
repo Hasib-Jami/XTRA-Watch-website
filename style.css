@@ -1829,6 +1829,33 @@ footer.footer {
 }
 /* end page 5 */
 
+/* start page 6 */
+@media (max-width: 1200px) and (min-width: 992px){
+    .bg-p6{
+        width: 90%;
+        height: 520px;
+        padding: 0 20px
+    }
+    .photo-p6{
+        width: 100%;
+        
+    }
+    .text-p6 h3{
+        font-size: 32px;
+    }
+    .text-p6 p{
+        display: none;
+    }
+    .button-p6{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
+/* end page 6 */
+
 
 
 /* end responsive for size 1200px */
