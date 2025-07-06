@@ -1643,3 +1643,46 @@ footer.footer {
 /* end footer */
 
 /* end responsive for size 992px */
+
+/* ------------------------------------------- */
+
+/* start responsive for size 1200px */
+
+/* start header */
+@media (max-width: 1200px){
+    .header-main{
+        width: 100%;
+    }
+    .Contact{
+        display: none;
+    }
+    .header-name ul{
+        margin-right: 80px;
+    }
+}
+/* end header */
+
+/* start page 1 */
+@media (max-width: 1200px) {
+  .page-1 {
+    padding: 20px 20px;
+  }
+  .text-page1 .text1,
+  .text-page1 .text2,
+  .text-page1 .text3 {
+    font-size: 40px;
+  }
+  .button-1,
+  .button-2 {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+  .watch-1 img {
+    max-width: 390px;
+  }
+ }
+/* end page 1 */
+
+
+
+/* end responsive for size 1024px */
