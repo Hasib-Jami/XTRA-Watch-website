@@ -1355,6 +1355,33 @@ footer.footer {
  }
 /* end home page 1 */
 
+/* start home page 2 */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .text-column,
+  .text-column2 {
+    max-width: none;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .watch-image img {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .text-box img{
+    transform: translateX(4px);
+  }
+  .text-box2 img{
+    transform: translateX(3px);
+  }
+}
+/* end home page 2 */
+
 
 
 
