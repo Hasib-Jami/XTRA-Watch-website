@@ -1780,6 +1780,39 @@ footer.footer {
 }
 /* end page 3 */
 
+/* start page 4 */
+@media (max-width: 1200px) and (min-width: 992px){
+  .Watches {
+    /* padding: 0 15px;  */
+  }
+  .Watches-p4 {
+    align-content: center;
+    gap: 4px;
+  }
+  .watch-p4 {
+    width: 90%; 
+    box-sizing: border-box; 
+    transform: scale(0.90); 
+  }
+  .p-4 p{
+    display: none;
+  }
+  .p-4 h3{
+    font-size: 27px;
+  }
+.photo-watch {
+    height: 190px;
+    width: 190px;
+    margin: 20px auto 0 auto; 
+  }
+  .photo-watch img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+/* end page 4 */
+
 
 
 /* end responsive for size 1200px */
