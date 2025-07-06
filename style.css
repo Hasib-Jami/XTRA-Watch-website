@@ -1782,9 +1782,6 @@ footer.footer {
 
 /* start page 4 */
 @media (max-width: 1200px) and (min-width: 992px){
-  .Watches {
-    /* padding: 0 15px;  */
-  }
   .Watches-p4 {
     align-content: center;
     gap: 4px;
@@ -1812,6 +1809,25 @@ footer.footer {
   }
 }
 /* end page 4 */
+
+/* start page 5 */
+@media (max-width: 1200px) and (min-width: 992px){
+    .page--5{
+      width: 100%;
+      padding: 0 20px;
+    }
+    .photo-p5 img{
+      height: 370px;
+    }
+    .photo-p5{
+      padding-right: 80px;
+      margin-top: 60px;
+    }
+    .watch-man{
+      display: none;
+    }
+}
+/* end page 5 */
 
 
 
