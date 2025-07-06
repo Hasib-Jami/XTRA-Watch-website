@@ -1337,7 +1337,7 @@ footer.footer {
 /* start home page 1 */
 @media (max-width: 992px) {
   .page-1 {
-    padding: 20px 30px;
+    padding: 20px 20px;
   }
   .text-page1 .text1,
   .text-page1 .text2,
@@ -1452,6 +1452,40 @@ footer.footer {
   }
 }
 /* end home page 3 */
+
+/* start home page 4 */
+@media (max-width: 992px) {
+  .Watches {
+    padding: 0 15px; 
+  }
+  .Watches-p4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 4px;
+  }
+  .watch-p4 {
+    width: 90%; 
+    box-sizing: border-box; 
+    transform: scale(0.90); 
+  }
+  .p-4 p{
+    display: none;
+  }
+  .p-4 h3{
+    font-size: 27px;
+  }
+.photo-watch {
+    height: 190px;
+    width: 190px;
+    margin: 20px auto 0 auto; 
+  }
+  .photo-watch img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+/* end home page 4 */
 
 
 
