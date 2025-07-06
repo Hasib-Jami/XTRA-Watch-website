@@ -1648,6 +1648,12 @@ footer.footer {
 
 /* start responsive for size 1200px */
 
+@media (max-width: 1200px){
+    html, body {
+    overflow-x: hidden;
+   }
+}
+
 /* start header */
 @media (max-width: 1200px){
     .header-main{
@@ -1683,6 +1689,26 @@ footer.footer {
  }
 /* end page 1 */
 
+/* start page 2 */
+@media (max-width: 1200px){
+    .watch-image img{
+      width: 500px;
+    }
+    .text-box p{
+      font-size: 12px;
+    }
+    .text-box h3{
+      font-size: 14px;
+    }
+    .text-box2 p{
+      font-size: 12px;
+    }
+    .text-box2 h3{
+      font-size: 14px;
+    }
+}
+/* end page 2 */
 
 
-/* end responsive for size 1024px */
+
+/* end responsive for size 1200px */
