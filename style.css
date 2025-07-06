@@ -1487,6 +1487,77 @@ footer.footer {
 }
 /* end home page 4 */
 
+/* start home page 5 */
+@media (max-width: 992px) {
+  .page-5{
+    margin-top: 320px;
+  }
+  .page--5 {
+    width: 100%;
+    flex-direction: column;        
+    height: auto;
+    padding: 0 15px;             
+    box-sizing: border-box;
+    align-items: center;           
+  }
+  .title-p5 {
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .text-p5 {
+    width: 100%;
+    text-align: center;
+  }
+  .text--p5 {
+    padding: 40px 0 0 0;          
+  }
+  .p2-p5,
+  .p2--p5 {
+    font-size: 24px;
+  }
+  .p3-p5 {
+    padding: 20px 0 0 0;
+    line-height: 28px;
+    font-size: 16px;
+    display: none;
+  }
+  .man2 {
+    justify-content: center;      
+    padding: 25px 0 0 0;
+  }
+  .photo-p5 {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    position: relative;
+  }
+  .photo-p5 > img {
+    position: static;            
+    width: 100%;
+    max-width: 480px;              
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .watch-man {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;                  
+    background: white;
+    padding: 1px;
+    border-radius: 55px;
+    margin-right: 30px;
+  }
+  .watch-man img {
+    width: 100%;
+    height: auto;
+    transform: translateX(-150px);
+  }
+}
+/* end home page 5 */
+
 
 
 
