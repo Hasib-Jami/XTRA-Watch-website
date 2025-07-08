@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* start home header */
+#humber {
+  display: none;
+  position: absolute;
+  top: 100px;
+  right: 60px;
+  font-size: 27px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.header-main {
+  width: 1200px;
+  margin: 0 auto;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+}
+.header-icon img {
+  height: 30px;
+  padding-top: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.header-name ul {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  list-style-type: none;
+  margin-left: 80px;
+  margin-top: 50px;
+  color: #a3a3a3;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+.header-name-ul li span {
+  position: relative;
+  display: inline-block;
+  padding: 8px 0;
+  transition: 0.5s;
+}
+.header-name-ul li span::before,
+.header-name-ul li span::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+.header-name-ul li span::before {
+  top: 0;
+}
+.header-name-ul li span::after {
+  bottom: 0;
+}
+.header-name-ul li span:hover::before,
+.header-name-ul li span:hover::after {
+  width: 100%;
+  left: 0;
+}
+.header-name-ul li span:hover {
+  color: black;
+}
+.Contact {
+  margin-left: 110px;
+  padding-top: 40px;
+}
+.Contact button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 15px 40px;
+  cursor: pointer;
+  border-radius: 35px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.Contact button:hover {
+  background-color: #0088ff;
+}
+.shop-icon {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d9d7d7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 38px;
+  margin-left: 20px;
+}
+.items {
+  right: -300px;
+  transition: right 0.3s ease;
+}
+#menu-toggle:checked ~ .header-main .items {
+  right: 0;
+}
+/* end header  */
