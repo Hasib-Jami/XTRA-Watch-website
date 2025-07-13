@@ -41,9 +41,7 @@
     position: relative;
     margin-bottom: 20px;
 }
-.header-name,
-.Contact,
-.shop-icon {
+.header-name, .Contact, .shop-icon {
     display: none;
 }
 #menu-toggle:checked ~ .header-main {
@@ -87,13 +85,6 @@
     z-index: 0;
     transition: width 0.4s ease;
     border-radius: 40px;
-}
-.header-name-ul li:hover::before {
-    width: 100%;
-}
-.header-name-ul li:hover {
-    color: black;
-    border-color: white;
 }
 .header-name-ul li span {
     position: relative;
